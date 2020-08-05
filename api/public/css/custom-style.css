@@ -1,0 +1,984 @@
+html {
+
+    overflow-y: auto;
+
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #f6f6f6;
+    position: relative;
+    padding-bottom: 100px;
+    height: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.primaryColor {
+
+    color: #2bb0b8;
+
+}
+
+.navbar-light .navbar-nav .headerUserInfo .nav-link {
+
+    padding: 0 15px 0 0;
+
+    color: #fff;
+
+}
+
+.userIcon,
+
+.userName {
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+}
+
+li.nav-item.dropdown.headerUserInfo {
+
+    font-family: 'Roboto', sans-serif !important;
+
+}
+
+.dropdown-menu.dropdown-menu-right.show,
+
+.dropdown-item {
+
+    font-family: 'Roboto', sans-serif !important;
+
+}
+
+.userName {
+
+    padding-left: 6px;
+
+    font-size: 18px;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.headerUserInfo .nav-link::after {
+
+    display: none;
+
+}
+
+.headerUserInfo .nav-link::before {
+
+    content: "\f107";
+
+    font-family: FontAwesome;
+
+    position: absolute;
+
+    right: 0;
+
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+
+    -ms-transform: translateY(-50%);
+
+    transform: translateY(-50%);
+
+}
+
+.homeContentStyle .form {
+
+    max-width: 100%;
+
+}
+
+.homeContentStyle .form {
+
+    max-width: 100%;
+
+    -webkit-box-shadow: none;
+
+    box-shadow: none;
+
+    -webkit-border-radius: 0;
+
+    border-radius: 0;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+.titleStyle > h1 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #2bb0b8;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.titleStyle > h6 {
+    font-size: 18px;
+    color: #9f9f9f;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.tabPanel {
+
+    -webkit-box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+
+    box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+
+    margin-top: 30px;
+
+}
+
+.tabs.tabStyle {
+
+    width: 100%;
+
+    background-color: #2bb0b8;
+
+    border-radius: 0;
+
+    margin-top: 0;
+
+}
+
+.tabs.tabStyle > a {
+
+    display: table-cell;
+
+    margin: 0 auto;
+
+    color: #fff;
+
+    height: 100%;
+
+    width: 25%;
+
+}
+
+.tabs.tabStyle > a + a {
+
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.tabStyle .tabIcon {
+
+    display: inline-block;
+
+    position: relative;
+
+}
+
+.tabStyle .tabIcon > img {
+
+    -webkit-transition: all 300ms ease-in-out 0s;
+
+    -o-transition: all 300ms ease-in-out 0s;
+
+    transition: all 300ms ease-in-out 0s;
+
+    max-height: 40px;
+
+}
+
+.tabStyle .tabIcon .iconWhite {
+
+    opacity: 1;
+
+}
+
+.tabStyle .tabIcon .activeIcon {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+}
+
+.tabStyle > .active .iconWhite,
+
+.tabStyle .tabIcon .activeIcon {
+
+    opacity: 0;
+
+}
+
+.tabStyle > .active .activeIcon {
+
+    opacity: 1;
+
+}
+
+.tabStyle .tabText {
+
+    display: block;
+
+    padding-top: 6px;
+
+}
+
+.tabs .selector.tab_btn_style {
+
+    background: transparent;
+
+    border-radius: 0;
+
+    display: none;
+
+}
+
+.tabs.tabStyle > a.active {
+
+    color: #2bb0b8;
+
+    background-color: #fff;
+
+}
+
+.tabContentStyle {
+
+    background-color: #fff;
+
+    padding: 40px 30px;
+
+    display: flex;
+
+    justify-content: center;
+
+    position: relative;
+
+    min-height: 430px;
+
+}
+
+#configuration .subTitle > p {
+
+    margin: 0;
+
+}
+
+.minHgtContent {
+
+    min-height: calc(100vh - 484px);
+
+}
+
+.mdContainer {
+
+    max-width: 730px;
+
+    margin: 0 auto;
+
+}
+
+.tabContentStyle h4 {
+
+    font-size: 25px;
+
+    font-weight: 700;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.tabContentStyle h5 {
+
+    font-size: 15px;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.orange_active.primaryColor {
+
+    font-weight: 600;
+
+    font-size: 60px;
+
+    margin-top: 50px;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.textalignCenter h3,
+
+.textalignCenter .orange_active.primaryColor {
+
+    margin: 0;
+
+    font-weight: 600;
+
+    font-size: 60px;
+
+    margin-top: 50px;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.textalignCenter .orange_active.primaryColor {
+
+    color: #2cb0b8;
+
+}
+
+.textalignCenter .red_active {
+
+    color: #FF0800;
+
+}
+
+.textalignCenter .blue_active {
+
+    color: #00a336;
+
+}
+
+.textalignCenter {
+
+    position: absolute;
+
+    left: 0;
+
+    right: 0;
+
+    top: 50%;
+
+    transform: translate(0, -50%);
+
+}
+
+.tabContentStyle .blue_active {
+
+    margin-top: 30px;
+
+    margin-bottom: 0;
+
+    color: #2bb0b8;
+
+    text-align: center;
+
+    font-size: 60px;
+
+    font-weight: 600;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.form-control:focus {
+
+    border-color: #2bb0b8;
+
+    box-shadow: 0 0 0 0.2rem rgb(43, 176, 184, 0.1);
+
+    border-width: 2px;
+
+}
+
+.footerCol {
+
+    padding: 25px 15px;
+
+    font-size: 15px;
+
+    color: #212552;
+
+    background-color: #f6f6f6 !important;
+
+    position: absolute;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+}
+
+.footerCol .primaryColor {
+
+    color: #212529;
+
+}
+
+
+
+.logoutText a.dropdown-item {
+
+    color: #fff;
+
+    font-size: 18px;
+
+    padding: 0;
+
+}
+
+.logoutText a.dropdown-item {
+
+    color: #fff;
+
+    font-size: 18px;
+
+    padding: 0 0 0 24px;
+
+    position: relative;
+
+}
+
+.logoutText .dropdown-item:hover, .logoutText .dropdown-item:focus {
+
+    color: #fff;
+
+    text-decoration: none;
+
+    background-color: transparent;
+
+}
+
+.logoutText a.dropdown-item::before {
+
+    content: "\f08b";
+
+    position: absolute;
+
+    left: 0;
+
+    top: 50%;
+
+    transform: translate(0, -50%);
+
+    font-family: fontawesome;
+
+}
+
+
+/*****************************
+
+*********media-qaury*********
+
+*****************************/
+
+
+
+@media(max-width:1199px){
+
+
+
+    body {
+
+        padding-bottom: 70px;
+
+    }
+
+    .titleStyle > h1 {
+
+        font-size: 30px;
+
+        line-height: 30px;
+
+    }
+
+    .titleStyle > h6 {
+
+        font-size: 14px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .tabContentStyle {
+
+        padding: 30px 20px;
+
+        min-height: 400px;
+
+    }
+
+    .tabContentStyle h4 {
+
+        font-size: 24px;
+
+    }
+
+    .tabContentStyle h5 {
+
+        font-size: 13px;
+
+    }
+
+    .subTitle.spaceCol {
+
+        margin: 20px 0;
+
+    }
+
+    .leftSideCol {
+
+        max-width: 100%;
+
+    }
+
+    .tabContentStyle .subTitle h4 {
+
+        font-size: 20px;
+
+    }
+
+    .subTitle > span,
+
+    .subTitle > p {
+
+        font-size: 16px;
+
+    }
+
+    .rightSide {
+
+        max-width: 100%;
+
+    }
+
+    a.button-block, .button {
+
+        font-size: 16px;
+
+    }
+
+    .tabContentStyle .blue_active {
+
+        font-size: 40px;
+
+    }
+
+    .textalignCenter h3,
+
+    .textalignCenter .orange_active.primaryColor {
+
+        font-size: 40px;
+
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .tabs .selector.tab_btn_style {
+
+        opacity: 0;
+
+    }
+
+    .tabs.tabStyle > a.active {
+
+        background-color: #fff;
+
+    }
+
+    .tabStyle .tabIcon > img {
+
+        height: 30px;
+
+        object-fit: cover;
+
+        object-position: center;
+
+    }
+
+    .tabContentStyle .blue_active {
+
+        font-size: 30px;
+
+    }
+
+    .tabs.tabStyle > a {
+
+        font-size: 13px;
+
+    }
+
+    .chkCol .form-group label {
+
+        margin: 0;
+
+    }
+
+    .subTitle > span,
+
+    .subTitle > p {
+
+        font-size: 14px;
+
+        margin-top: 8px;
+
+    }
+
+    .subContent {
+
+        margin: 5px 0 25px 0;
+
+    }
+
+    .subContent > p {
+
+        font-size: 14px;
+
+        overflow: hidden;
+
+        text-overflow: unset;
+
+        max-width: 100%;
+
+    }
+
+    .tabContentStyle {
+
+        min-height: 406px;
+
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .tabStyle .tabIcon > img {
+
+        height: 24px;
+
+    }
+
+    .rightSide {
+
+        padding-left: 0;
+
+    }
+
+    .titleStyle > h1 {
+
+        font-size: 20px;
+
+        line-height: 24px;
+
+    }
+
+    .titleStyle > h6 {
+
+        font-size: 13px;
+
+        letter-spacing: 0px;
+
+    }
+
+    .tabContentStyle {
+
+        padding: 20px;
+
+        min-height: 320px;
+
+    }
+
+    .textalignCenter h3,
+
+    .textalignCenter .orange_active.primaryColor {
+
+        font-size: 30px;
+
+    }
+
+    .tabContentStyle h5.perCol {
+
+        margin-bottom: 30px;
+
+    }
+
+    .leftSideCol {
+
+        text-align: center;
+
+        margin-bottom: 30px;
+
+    }
+
+    .tabContentStyle .subTitle h4 {
+
+        font-size: 18px;
+
+        margin-bottom: 0;
+        text-align: center !important;
+
+    }
+
+    .subTitle > span,
+
+    .subTitle > p {
+
+        font-size: 14px;
+
+    }
+
+    a.button-block, .button {
+
+        font-size: 14px;
+
+        padding: 0;
+
+        height: 42px;
+
+    }
+
+    .navbar-light .navbar-nav .headerUserInfo .nav-link {
+
+        margin-top: 20px;
+
+    }
+
+    .field-wrap {
+
+        margin-bottom: 15px;
+
+    }
+
+    .tabContentStyle h4 {
+
+        font-size: 18px;
+
+    }
+
+    .tabContentStyle .blue_active {
+
+        font-size: 26px;
+
+    }
+
+    .formCol .tab-content, #reset-card {
+
+        max-width: 100%;
+
+        margin: 15px;
+
+    }
+
+    .formCol .field-wrap {
+
+        margin-bottom: 15px;
+
+    }
+
+    .tabs.tabsSection a, #reset-card .card-header span {
+
+        height: 60px;
+
+        font-size: 16px;
+
+    }
+
+    .subTitle.spaceCol {
+
+        margin: 20px 0 !important;
+
+    }
+
+    .tabPanel {
+
+        margin-top: 15px;
+
+    }
+
+    .navbar-brand img.img-responsive {
+
+        width: 100% !important;
+
+        height: auto !important;
+
+        max-width: 140px;
+
+    }
+    .mdContainer {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 585px) {
+    .textItl {
+        font-size: 12px;
+    }
+
+    .tabs.tabStyle > a {
+
+        padding: 10px;
+
+        display: inline-table;
+
+        width: 50%;
+
+    }
+
+    .wrapper {
+
+        margin: 0;
+
+    }
+
+    .slideSlider li {
+
+        font-size: 11px;
+
+    }
+
+    .tabs.tabsSection a, #reset-card .card-header span {
+
+        height: 50px;
+
+        font-size: 15px;
+
+    }
+
+    #login,
+
+    #signup, #reset-card .card-body {
+
+        padding: 30px 20px;
+
+    }
+
+    .forgetText {
+
+        margin: 20px 0;
+
+    }
+
+    .formCol .form-control {
+
+        height: 40px;
+
+        font-size: 14px;
+
+    }
+
+    .forgetText > a {
+
+        font-size: 15px;
+
+    }
+
+    .textalignCenter h3,
+
+    .textalignCenter .orange_active.primaryColor {
+
+        font-size: 20px;
+
+    }
+
+    .tabStyle .tabIcon > img {
+
+        height: 20px;
+
+    }
+
+    .tabs.tabStyle > a {
+
+        padding: 7px;
+
+    }
+
+.tabContentStyle {
+    padding: 15px 10px;
+    min-height: 200px;
+}
+
+   /* .textalignCenter {
+
+        position: static;
+
+    }*/
+
+    .subTitle > span,
+
+    .subTitle > p {
+
+        font-size: 13px;
+
+        margin-bottom: 10px;
+
+    }
+
+    .subContent {
+
+        margin: 5px 0 25px 0;
+
+    }
+.tabContentStyle
+    .subContent > p {
+
+        font-size: 13px;
+
+        overflow: hidden;
+
+        text-overflow: unset;
+
+        max-width: 100%;
+
+    }
+
+    .tabContentStyle .subTitle h4 {
+        font-size: 16px;
+        text-align: center;
+
+     }
+     
+
+    .leftSideCol {
+
+        margin-bottom: 20px;
+
+    }
+
+    .tabContentStyle h5.perCol {
+
+        margin-bottom: 20px;
+
+    }
+
+    .footerCol {
+
+        padding: 15px 10px;
+
+        font-size: 14px;
+
+    }
+
+    body {
+
+        padding-bottom: 40px;
+
+    }
+
+    .tabContentStyle h4 {
+
+        font-size: 16px;
+
+    }
+
+    .chkCol {
+
+        font-size: 13px;
+
+        line-height: 18px;
+
+        margin-top: 0;
+
+    }
+
+}

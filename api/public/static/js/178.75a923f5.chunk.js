@@ -1,0 +1,1 @@
+(this["webpackJsonpfuse-react-app"]=this["webpackJsonpfuse-react-app"]||[]).push([[178],{2726:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return u}));var a=t(0),i=t.n(a),r=t(209);function u(){return i.a.createElement("div",null,i.a.createElement(r.a,null,i.a.createElement("h2",null,"This page is one of Confirmed University menu in Universities menu.")))}}}]);

@@ -1,0 +1,1 @@
+(this["webpackJsonpfuse-react-app"]=this["webpackJsonpfuse-react-app"]||[]).push([[175],{2727:function(e,n,a){"use strict";a.r(n),a.d(n,"default",(function(){return s}));var t=a(0),u=a.n(t),c=a(209);function s(){return u.a.createElement("div",null,u.a.createElement(c.a,null,u.a.createElement("h2",null,"This page is one of View Schools menu in Manage Schools menu.")))}}}]);

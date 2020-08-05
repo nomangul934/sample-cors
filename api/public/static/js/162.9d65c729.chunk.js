@@ -1,0 +1,1 @@
+(this["webpackJsonpfuse-react-app"]=this["webpackJsonpfuse-react-app"]||[]).push([[162],{2897:function(e,n,a){"use strict";a.r(n),a.d(n,"default",(function(){return r}));var t=a(0),u=a.n(t),i=a(209);function r(){return u.a.createElement("div",null,u.a.createElement(i.a,null,u.a.createElement("h2",null,"This page is one of Duplicate University menu in Manage Fairs menu.")))}}}]);
